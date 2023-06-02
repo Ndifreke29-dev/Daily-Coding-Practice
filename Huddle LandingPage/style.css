@@ -205,7 +205,82 @@ input {
   }
 
 
+  /* BUILD */
+  .build h1{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .build p {
+    width: 95%;
+    font-size: .79rem;
+    margin-bottom: 40px;
+  }
+  
+  .build button, .ready button {
+    padding: 12px 40px;
+    font-weight: 800;
+  }
 
+  /* BODY-IMG */
+  .body-img {
+    margin-bottom: 200px;
+  }
+
+/* NUMBERS */
+  .numbers .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+
+/* GROWING TOGETHER */
+  .grow .container, .your-users .container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .media-p {
+    font-size: .79rem;
+  }
+
+  .flowing .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ready .container {
+    text-align: center;
+  }
+
+
+  footer .container {
+    flex-direction: column;
+    gap: 100px;
+  }
+
+  input {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .foot {
+    width: 100%;
+  }
+
+  .white-logo {
+    background: #fff;
+    padding: 10px;
+  }
+
+  
 
 
 }
+
